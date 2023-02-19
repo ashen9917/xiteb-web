@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Montserrat:wght@500&family=Niramit:ital,wght@0,400;1,200&family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Barlow:ital@1&family=Montserrat:wght@500&family=Niramit:ital,wght@0,400;1,200&family=Poppins:ital,wght@1,200&display=swap");
+@font-face {
+  font-family: "BodoniStd-BookItalic";
+  src: url(../fonts/BodoniStd\ BookItalic.otf);
+}
+
+h1 {
+  font-family: "BodoniStd-BookItalic", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  color: #77328b;
+}
+
+select {
+  font-family: "BodoniStd-BookItalic";
+  font-size: 15px;
+  color: #252776;
+  width: 550px;
+  height: 50px;
+  border-radius: 0%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  text-size-adjust: inherit;
+}
+.scoll {
+  display: block;
+  margin: 50px;
+}
+.option {
+  outline: 1px solid black;
+}
+.image01 {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 400px;
+}
+.image02 {
+  display: block;
+  position: absolute;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: -380px;
+}
+.textbox {
+  margin-left: 500px;
+  position: absolute;
+  width: 220px;
+  height: 350px;
+  color: black;
+  background: rgb(248, 247, 247);
+  margin-top: -340px;
+  margin-left: 900px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+h4 {
+  font-family: "BodoniStd-BookItalic", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #77328b;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+  font-size: 12px;
+}
+.btn1 {
+  position: absolute;
+  font-family: "Barlow";
+  margin-left: 27px;
+  margin-top: -25px;
+  height: 50px;
+  width: 120px;
+  color: rgb(247, 247, 248);
+  background: #090b74;
+  border: none;
+  cursor: pointer;
+  transform: 5s;
+}
+.btn1:hover {
+  background-image: url("../images/02/wood-pattern.gif");
+  mix-blend-mode: 1% screen #090b74;
+}
